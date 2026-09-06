@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Environment Variables
+.env
+
+# Cloudflare (if any leftovers)
+.wrangler/
+wrangler.toml
+functions/
+deploy_cloudflare.bat
+clean_cloudflare.bat
+
+# IDE
+.vscode/
+.idea/
